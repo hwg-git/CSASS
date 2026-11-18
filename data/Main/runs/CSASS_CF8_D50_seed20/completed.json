@@ -1,0 +1,66 @@
+{
+  "Status": "completed",
+  "status": "completed",
+  "ID": "V2_CF8_D50_adaptive_seed20",
+  "Version": "V2",
+  "Problem": "CF8",
+  "D": 50,
+  "Seed": 20,
+  "Mode": "adaptive",
+  "FE": 500,
+  "Files": [
+    {
+      "Path": "result.json",
+      "SHA256": "3f1c5dc9b6604587172e31628c102af305c97aae6d528bfad24a3a17d5846d8e"
+    },
+    {
+      "Path": "precision_ledger.csv",
+      "SHA256": "44982532887932365cd134b9a448ad4ad110660a0f0a5913ac28623a22ac8a10"
+    },
+    {
+      "Path": "final_objectives.csv",
+      "SHA256": "75006944bc4f7831dfa33f692457fc7d97abd16170b6e9655c03dded544274d6"
+    },
+    {
+      "Path": "final_decisions.csv",
+      "SHA256": "3ed80fd7eb326d4d300f5ec460be088df3b9a61addc1844e95e24ff0edbdfbdc"
+    },
+    {
+      "Path": "model_selection.csv",
+      "SHA256": "94a32ca96c26e2b7259e51392dfe138e0fde9e4921dc1d725281c04afc462992"
+    },
+    {
+      "Path": "prediction_errors.csv",
+      "SHA256": "37a8a00765d315f8514b28b0601fe86c1c05e174a74caa4dccab53f0c5426a4f"
+    },
+    {
+      "Path": "training_ids.csv",
+      "SHA256": "1edc6cb327054aeba29c54c35c6e9162d269cd1a868192ccfc4572ed4c5f7f10"
+    },
+    {
+      "Path": "stage_flags.csv",
+      "SHA256": "33d995f44295e27b858dd0c4fc86075a73194655fa876d32a827f704770e1faa"
+    },
+    {
+      "Path": "fit_times.csv",
+      "SHA256": "ad9d27927fb29ee96e05b6d7df4efd2ca36986326dc7216465a15927788c04c7"
+    },
+    {
+      "Path": "final_training_archive.csv",
+      "SHA256": "89292f56b9ff32da5b261f0517dbead94f9588970e8e74f6dc97aa38fb4953fd"
+    },
+    {
+      "Path": "final_surrogate_population_NOT_TRUE.csv",
+      "SHA256": "55db494016f374333c9d83a5ca918d78c350d020e0a6e7052febbc990324782e"
+    },
+    {
+      "Path": "configuration.json",
+      "SHA256": "451658d144f30c58e90ccafebba21fe69805cd6032dbf1fdf46173bc999dfc63"
+    },
+    {
+      "Path": "diagnostic_result.mat",
+      "SHA256": "f750e93ed97b472a2f9edf90014c0c9781ef0d7205d8282857886179c8f58dd2"
+    }
+  ],
+  "CompletedUTC": "2026-11-04 15:23:03"
+}

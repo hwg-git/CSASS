@@ -1,0 +1,38 @@
+{
+  "SelectedCandidate": "20261031_CF8_ObjectiveArchive30",
+  "SelectedCandidateFeasibleRuns": 29,
+  "SelectedCandidateTotalRuns": 30,
+  "SelectedCSASSFingerprint": "68cffafcb1df1f283ebed891489ce9824b338aad7b99e0e402f42ac3ab098ccf",
+  "ScientificBaselineFilesUnchanged": true,
+  "Problems": 24,
+  "Dimensions": [
+    10,
+    20,
+    50
+  ],
+  "Algorithms": [
+    "ANSGAIII",
+    "HeEMOEA",
+    "MOL2SMEA",
+    "PCSAEA",
+    "CTAEA",
+    "CSASS"
+  ],
+  "RunsPerGroup": 30,
+  "Groups": 432,
+  "TotalTasks": 12960,
+  "RequestedWorkers": 6,
+  "ThreadsPerTrial": 1,
+  "FormalExperimentsStartedHere": false,
+  "OriginalPaperCSVSourceSHA256": "08c9722b7629672e0283fed38ee0a3c24d7c31a1542c218a8854b3e45c50059d",
+  "NativePopulation": "ANSGAIII/CTAEA:100 for2obj,91 for3obj;others100",
+  "PrimaryHVReference": 1.1,
+  "AdditionalHVReferences": [
+    1.5,
+    2.0
+  ],
+  "TwoObjectiveTasks": 10260,
+  "ThreeObjectiveTasks": 2700,
+  "TotalFormalTrueEvaluations": 6480000,
+  "ValidationStatus": "pass"
+}

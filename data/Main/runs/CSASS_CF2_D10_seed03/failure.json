@@ -1,0 +1,13 @@
+{
+  "Task": {
+    "ID": "V2_CF2_D10_adaptive_seed03",
+    "Version": "V2",
+    "Problem": "CF2",
+    "D": 10,
+    "Mode": "adaptive",
+    "Seed": 3
+  },
+  "ActualFE": 500,
+  "ElapsedSeconds": 16.9027637,
+  "Error": "未定义与 'cell' 类型的输入参数相对应的函数 'portable_write_csv'。\n\n出错 review_export_logs (第 11 行)\nportable_write_csv(fullfile(dest,'model_selection.csv'),{'Stage','FEbefore','FEafter','UsedObjectiveModel','UsedConstraintModel','NextObjectiveModel','NextConstraintModel','R2RBFObjectives','R2RBFConstraint','R2KrigingObjectives','R2KrigingConstraint','RBFMatrixRank','InfillSupplementCandidates'},selection);\n\n出错 review_trial (第 33 行)\n review_export_logs(result,dest);\n\n出错 parallel.internal.queue.cppEvaluateRequest (第 42 行)\n        [outArgs{1:numArgsOut}] = builtin('feval', userFcn, args{:});"
+}

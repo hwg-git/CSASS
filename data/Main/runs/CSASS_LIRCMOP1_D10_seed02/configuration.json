@@ -1,0 +1,43 @@
+{
+  "Task": {
+    "ID": "V2_LIRCMOP1_D10_adaptive_seed02",
+    "Version": "V2",
+    "Problem": "LIRCMOP1",
+    "D": 10,
+    "Mode": "adaptive",
+    "Seed": 2
+  },
+  "Options": {
+    "N": 100,
+    "MaxFE": 500,
+    "Pmax": 20,
+    "K": 10,
+    "Seed": 2,
+    "Mode": "adaptive",
+    "RBFKernel": "multiquadric",
+    "RBFShape": 1,
+    "RBFRidge": 0,
+    "KrigingMaxFunEvals": 120,
+    "KrigingMaxIter": 80,
+    "KrigingThetaMin": 0.001,
+    "KrigingThetaMax": 100,
+    "KrigingNugget": 1E-10,
+    "CrossoverProbability": 1,
+    "CrossoverEta": 20,
+    "MutationExpected": 1,
+    "MutationEta": 20,
+    "FeasibilityTolerance": 0,
+    "DuplicateTolerance": 1E-10,
+    "R2VarianceTolerance": 0,
+    "ReferencePoints": 2000,
+    "HVReference": [],
+    "OutputDirectory": "",
+    "Verbose": false
+  },
+  "CandidateSourceFingerprint": "3edd78431900035c02ecd2d0c1e370fcdfb34282f953887cb022f54da1caf84b",
+  "MATLAB": "23.2.0.2380103 (R2023b) Update 1",
+  "Threads": 1,
+  "OutputRule": "SPEA2 select N from all true evaluations, then feasible ND",
+  "GroundTruthCV": "sum(max(G,0),2); tolerance0",
+  "PrimaryMetrics": "IGD10000 raw; HV normalized by frozen PF10000; legacy2000 separately"
+}

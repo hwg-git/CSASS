@@ -1,0 +1,126 @@
+{
+  "Name": "Frozen V2 six-problem D10 local ablation",
+  "N": 100,
+  "MaxFE": 500,
+  "Pmax": 20,
+  "K": 10,
+  "Workers": 1,
+  "ThreadsPerTrial": 1,
+  "RequestedPF": 10000,
+  "Scale": 1,
+  "MaxWallHours": 12,
+  "NewTasks": 540,
+  "CachedTasks": 360,
+  "TotalTasks": 900,
+  "ExpectedGroups": 30,
+  "Dimensions": [
+    10
+  ],
+  "Problems": [
+    "CF2",
+    "CF7",
+    "LIRCMOP1",
+    "LIRCMOP7",
+    "CF8",
+    "LIRCMOP13"
+  ],
+  "Modes": [
+    "adaptive",
+    "rbf_only",
+    "kriging_only",
+    "fixed_rbf_obj_kriging_con",
+    "fixed_kriging_obj_rbf_con"
+  ],
+  "SeedFirst": 1,
+  "SeedLast": 30,
+  "CacheGroups": [
+    {
+      "Version": "V2",
+      "Problem": "CF2",
+      "D": 10,
+      "Mode": "adaptive"
+    },
+    {
+      "Version": "V2",
+      "Problem": "CF7",
+      "D": 10,
+      "Mode": "adaptive"
+    },
+    {
+      "Version": "V2",
+      "Problem": "CF7",
+      "D": 10,
+      "Mode": "rbf_only"
+    },
+    {
+      "Version": "V2",
+      "Problem": "CF7",
+      "D": 10,
+      "Mode": "kriging_only"
+    },
+    {
+      "Version": "V2",
+      "Problem": "CF7",
+      "D": 10,
+      "Mode": "fixed_rbf_obj_kriging_con"
+    },
+    {
+      "Version": "V2",
+      "Problem": "CF7",
+      "D": 10,
+      "Mode": "fixed_kriging_obj_rbf_con"
+    },
+    {
+      "Version": "V2",
+      "Problem": "LIRCMOP1",
+      "D": 10,
+      "Mode": "adaptive"
+    },
+    {
+      "Version": "V2",
+      "Problem": "LIRCMOP7",
+      "D": 10,
+      "Mode": "adaptive"
+    },
+    {
+      "Version": "V2",
+      "Problem": "LIRCMOP7",
+      "D": 10,
+      "Mode": "rbf_only"
+    },
+    {
+      "Version": "V2",
+      "Problem": "LIRCMOP7",
+      "D": 10,
+      "Mode": "kriging_only"
+    },
+    {
+      "Version": "V2",
+      "Problem": "LIRCMOP7",
+      "D": 10,
+      "Mode": "fixed_rbf_obj_kriging_con"
+    },
+    {
+      "Version": "V2",
+      "Problem": "LIRCMOP7",
+      "D": 10,
+      "Mode": "fixed_kriging_obj_rbf_con"
+    }
+  ],
+  "HVReferences": [
+    1.1,
+    3,
+    20
+  ],
+  "OutputRule": "SPEA2 select N from all true evaluations, then feasible nondominated solutions; frozen V2 rule",
+  "RBFKernel": "multiquadric",
+  "EngineReferencePoints": 2000,
+  "AutomaticRetry": false,
+  "StopByHistoricalIGD": false,
+  "IDFormat": "V2_{Problem}_D{D}_{Mode}_seed{Seed:02d}",
+  "ImportedAdaptivePolicy": "Optional verified full-V2 adaptive completion records may fill matching new manifest tasks; never rerun or replace existing trial directories.",
+  "MinimumFreeMemoryGB": 1,
+  "MinimumFreeDiskGB": 3,
+  "Execution": "Single MATLAB process, one compute thread per trial",
+  "AutomaticExpansion": false
+}

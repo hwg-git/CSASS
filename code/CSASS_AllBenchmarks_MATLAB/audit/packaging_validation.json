@@ -1,0 +1,829 @@
+{
+  "Status": "pass",
+  "MATLAB": "23.2.0.2380103 (R2023b) Update 1",
+  "OptimizationsRun": 0,
+  "ObjectiveEvaluations": 0,
+  "ParallelPoolsStarted": 0,
+  "SourceLockSHA256": "2ace295b6f9b788670d015d225bbdef9d77e3e52ca26d6373709245cee155746",
+  "FixedV2ScientificFilesIdentical": 21,
+  "TotalTrials": 2160,
+  "NewTrials": 1950,
+  "CachedTrials": 210,
+  "CacheFinalSetsAvailable": 120,
+  "CacheFinalSetsNotReturned": 90,
+  "Statistics": {
+    "Status": "pass",
+    "NewTaskCount": 1950,
+    "CachedTaskCount": 210,
+    "CombinedMatrixRows": 2160,
+    "Groups": 72,
+    "TrialsPerGroup": 30,
+    "CachedAndNewDisjoint": true,
+    "FiniteAndNAFixturesPassed": true,
+    "PartialGroupFixturePassed": true,
+    "DuplicateSeedsRejected": true,
+    "BaselineStatisticsPassed": true,
+    "FinalObjectivesAvailable": 120,
+    "FinalObjectivesMissing": 90,
+    "SingleFiniteConditionalSD": 0,
+    "OptimizationCalls": 0,
+    "ModelFits": 0,
+    "TrueEvaluations": 0,
+    "WritesToRunDirectories": 0
+  },
+  "Controller": {
+    "Status": "pass",
+    "NewTasks": 1950,
+    "CachedTasks": 210,
+    "TotalTasks": 2160,
+    "OptimizationRuns": 0,
+    "RealEvaluations": 0,
+    "ModelFits": 0,
+    "PoolStarted": false,
+    "FixtureDirectoriesOnly": true
+  },
+  "References": {
+    "Status": "pass",
+    "OptimizationRuns": 0,
+    "TrueEvaluations": 0,
+    "Checks": [
+      {
+        "Problem": "CF1",
+        "Requested": 2000,
+        "ActualRows": 21,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF1",
+        "Requested": 10000,
+        "ActualRows": 21,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF2",
+        "Requested": 2000,
+        "ActualRows": 1251,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF2",
+        "Requested": 10000,
+        "ActualRows": 6251,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF3",
+        "Requested": 2000,
+        "ActualRows": 683,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF3",
+        "Requested": 10000,
+        "ActualRows": 3412,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF4",
+        "Requested": 2000,
+        "ActualRows": 2000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF4",
+        "Requested": 10000,
+        "ActualRows": 10000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF5",
+        "Requested": 2000,
+        "ActualRows": 2000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF5",
+        "Requested": 10000,
+        "ActualRows": 10000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF6",
+        "Requested": 2000,
+        "ActualRows": 2000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF6",
+        "Requested": 10000,
+        "ActualRows": 10000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF7",
+        "Requested": 2000,
+        "ActualRows": 2000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF7",
+        "Requested": 10000,
+        "ActualRows": 10000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF8",
+        "Requested": 2000,
+        "ActualRows": 2000,
+        "Objectives": 3,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF8",
+        "Requested": 10000,
+        "ActualRows": 10000,
+        "Objectives": 3,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF9",
+        "Requested": 2000,
+        "ActualRows": 1043,
+        "Objectives": 3,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF9",
+        "Requested": 10000,
+        "ActualRows": 5078,
+        "Objectives": 3,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF10",
+        "Requested": 2000,
+        "ActualRows": 1043,
+        "Objectives": 3,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "CF10",
+        "Requested": 10000,
+        "ActualRows": 5078,
+        "Objectives": 3,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP1",
+        "Requested": 2000,
+        "ActualRows": 2000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP1",
+        "Requested": 10000,
+        "ActualRows": 10000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP2",
+        "Requested": 2000,
+        "ActualRows": 2000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP2",
+        "Requested": 10000,
+        "ActualRows": 10000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP3",
+        "Requested": 2000,
+        "ActualRows": 666,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP3",
+        "Requested": 10000,
+        "ActualRows": 3333,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP4",
+        "Requested": 2000,
+        "ActualRows": 666,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP4",
+        "Requested": 10000,
+        "ActualRows": 3333,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP5",
+        "Requested": 2000,
+        "ActualRows": 2000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP5",
+        "Requested": 10000,
+        "ActualRows": 10000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP6",
+        "Requested": 2000,
+        "ActualRows": 2000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP6",
+        "Requested": 10000,
+        "ActualRows": 10000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP7",
+        "Requested": 2000,
+        "ActualRows": 2000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP7",
+        "Requested": 10000,
+        "ActualRows": 10000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP8",
+        "Requested": 2000,
+        "ActualRows": 2000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP8",
+        "Requested": 10000,
+        "ActualRows": 10000,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP9",
+        "Requested": 2000,
+        "ActualRows": 645,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP9",
+        "Requested": 10000,
+        "ActualRows": 3216,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP10",
+        "Requested": 2000,
+        "ActualRows": 948,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP10",
+        "Requested": 10000,
+        "ActualRows": 4749,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP11",
+        "Requested": 2000,
+        "ActualRows": 7,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP11",
+        "Requested": 10000,
+        "ActualRows": 7,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP12",
+        "Requested": 2000,
+        "ActualRows": 8,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP12",
+        "Requested": 10000,
+        "ActualRows": 8,
+        "Objectives": 2,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP13",
+        "Requested": 2000,
+        "ActualRows": 1953,
+        "Objectives": 3,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP13",
+        "Requested": 10000,
+        "ActualRows": 9870,
+        "Objectives": 3,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP14",
+        "Requested": 2000,
+        "ActualRows": 1953,
+        "Objectives": 3,
+        "MaxAbsoluteDifference": 0
+      },
+      {
+        "Problem": "LIRCMOP14",
+        "Requested": 10000,
+        "ActualRows": 9870,
+        "Objectives": 3,
+        "MaxAbsoluteDifference": 0
+      }
+    ],
+    "DimensionChecks": [
+      {
+        "Problem": "CF1",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF1",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF1",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF2",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF2",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF2",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF3",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF3",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF3",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF4",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF4",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF4",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF5",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF5",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF5",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF6",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF6",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF6",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF7",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF7",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF7",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF8",
+        "D": 10,
+        "M": 3,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF8",
+        "D": 20,
+        "M": 3,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF8",
+        "D": 50,
+        "M": 3,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF9",
+        "D": 10,
+        "M": 3,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF9",
+        "D": 20,
+        "M": 3,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF9",
+        "D": 50,
+        "M": 3,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF10",
+        "D": 10,
+        "M": 3,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF10",
+        "D": 20,
+        "M": 3,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "CF10",
+        "D": 50,
+        "M": 3,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP1",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP1",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP1",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP2",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP2",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP2",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP3",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP3",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP3",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP4",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP4",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP4",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP5",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP5",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP5",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP6",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP6",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP6",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP7",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP7",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP7",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP8",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP8",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP8",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP9",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP9",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP9",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP10",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP10",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP10",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP11",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP11",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP11",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP12",
+        "D": 10,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP12",
+        "D": 20,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP12",
+        "D": 50,
+        "M": 2,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP13",
+        "D": 10,
+        "M": 3,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP13",
+        "D": 20,
+        "M": 3,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP13",
+        "D": 50,
+        "M": 3,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP14",
+        "D": 10,
+        "M": 3,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP14",
+        "D": 20,
+        "M": 3,
+        "FactoryBoundsMatch": true
+      },
+      {
+        "Problem": "LIRCMOP14",
+        "D": 50,
+        "M": 3,
+        "FactoryBoundsMatch": true
+      }
+    ],
+    "Tolerance": 5E-13
+  },
+  "MixedObjectiveTrace": "pass: isolated synthetic M2 and M3 logs, zero model fitting",
+  "ExcelInfTextVerified": true,
+  "SavedSetHVPostprocess": "Passed with synthetic empty set and120 existing saved sets;90 unavailable cached sets explicitly retained as unavailable",
+  "OriginalTableHashesPreserved": true,
+  "ParallelValidation": "No parallel execution during packaging QA; six-worker process scheduling statically checked. Runtime pool is verified on the target PC.",
+  "CodeAnalyzerReview": "No blocking syntax errors. Frozen benchmark helper grid uses dynamic eval and is not called by these benchmarks; all requested GetOptimum calls use validated default NBI."
+}

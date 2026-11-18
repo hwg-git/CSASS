@@ -1,0 +1,101 @@
+{
+  "Name": "Frozen V2 all paper benchmarks",
+  "N": 100,
+  "MaxFE": 500,
+  "Pmax": 20,
+  "K": 10,
+  "Workers": 6,
+  "ThreadsPerTrial": 1,
+  "RequestedPF": 10000,
+  "Scale": 1,
+  "MaxWallHours": 72,
+  "NewTasks": 1950,
+  "CachedTasks": 210,
+  "TotalTasks": 2160,
+  "ExpectedGroups": 72,
+  "Dimensions": [
+    10,
+    20,
+    50
+  ],
+  "Problems": [
+    "CF1",
+    "CF2",
+    "CF3",
+    "CF4",
+    "CF5",
+    "CF6",
+    "CF7",
+    "CF8",
+    "CF9",
+    "CF10",
+    "LIRCMOP1",
+    "LIRCMOP2",
+    "LIRCMOP3",
+    "LIRCMOP4",
+    "LIRCMOP5",
+    "LIRCMOP6",
+    "LIRCMOP7",
+    "LIRCMOP8",
+    "LIRCMOP9",
+    "LIRCMOP10",
+    "LIRCMOP11",
+    "LIRCMOP12",
+    "LIRCMOP13",
+    "LIRCMOP14"
+  ],
+  "SeedFirst": 1,
+  "SeedLast": 30,
+  "CacheGroups": [
+    {
+      "Version": "V2",
+      "Problem": "CF2",
+      "D": 10
+    },
+    {
+      "Version": "V2",
+      "Problem": "CF7",
+      "D": 10
+    },
+    {
+      "Version": "V2",
+      "Problem": "LIRCMOP1",
+      "D": 10
+    },
+    {
+      "Version": "V2",
+      "Problem": "LIRCMOP2",
+      "D": 10
+    },
+    {
+      "Version": "V2",
+      "Problem": "LIRCMOP3",
+      "D": 10
+    },
+    {
+      "Version": "V2",
+      "Problem": "LIRCMOP4",
+      "D": 10
+    },
+    {
+      "Version": "V2",
+      "Problem": "LIRCMOP7",
+      "D": 10
+    }
+  ],
+  "HVReferences": [
+    1.1,
+    3,
+    20
+  ],
+  "OutputRule": "SPEA2 select N from all true evaluations, then feasible nondominated solutions; frozen V2 rule",
+  "RBFKernel": "multiquadric",
+  "Mode": "adaptive",
+  "AutomaticRetry": false,
+  "StopByHistoricalIGD": false,
+  "SaveFinalObjectiveSets": true,
+  "SaveFinalDecisionSets": true,
+  "SaveFullTrueEvaluationLedger": true,
+  "RunOpponents": false,
+  "RunAdditionalAblations": false
+}

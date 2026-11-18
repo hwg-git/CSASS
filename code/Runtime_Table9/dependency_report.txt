@@ -1,0 +1,6 @@
+已按只读来源抽取Table9受控耗时包的冻结依赖。
+当前CSASS保留原engines/V2/matlab结构；通过engines/current_csass/code/v2all_engine_setup.m核路径。对手保留三个protocol_algorithms及完整PlatEMO基础类/工具和小依赖。
+未复制旧实验outputs、原始数据、论文或签字文件；未执行MATLAB、未跑优化。所有抽取文件SHA256与ZIP成员逐字节一致，详情见dependency_manifest.json。
+共180文件、1704043字节；当前CSASS 55文件，对手125文件。
+父控制器需分别设置PATH，当前CSASS只调用csass_run_v2；frozen_opponents/scientific_baseline/matlab/+csass是对手依赖，不代表选择旧CSASS算法。
+仅静态依赖检查通过，尚未声称通过MATLAB试运行。

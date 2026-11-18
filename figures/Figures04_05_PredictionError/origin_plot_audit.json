@@ -1,0 +1,164 @@
+{
+  "status": "success",
+  "software": "Origin 2026b SR2",
+  "source": "C:\\Users\\LOCAL_USER\\Documents\\ChatGPT\\New project\\output\\CSASS_Round2_HV_20261104\\Accuracy_Statistics\\Reply_Figures_AllDimensions\\all_available_stage_means.csv",
+  "sha256": "da083ab787139a31537cb6a39692bf0b1db5065fa00beba5592da945e3bfc1ec",
+  "curves": [
+    {
+      "task": "objectives",
+      "problem": "CF8",
+      "D": 20,
+      "response": "f1",
+      "points": 40,
+      "min": 0.5016956076571321,
+      "max": 4.011929524822378,
+      "worksheet": "[Book2]CF8D20"
+    },
+    {
+      "task": "objectives",
+      "problem": "CF8",
+      "D": 20,
+      "response": "f2",
+      "points": 40,
+      "min": 0.6590300984520799,
+      "max": 4.09865455709969,
+      "worksheet": "[Book2]CF8D20"
+    },
+    {
+      "task": "objectives",
+      "problem": "CF8",
+      "D": 20,
+      "response": "f3",
+      "points": 40,
+      "min": 0.6611935296324937,
+      "max": 3.8495455821577154,
+      "worksheet": "[Book2]CF8D20"
+    },
+    {
+      "task": "objectives",
+      "problem": "LIRCMOP1",
+      "D": 50,
+      "response": "f1",
+      "points": 40,
+      "min": 0.00403252987981398,
+      "max": 1.1663816828281504,
+      "worksheet": "[Book3]LIRCMOP1D50"
+    },
+    {
+      "task": "objectives",
+      "problem": "LIRCMOP1",
+      "D": 50,
+      "response": "f2",
+      "points": 40,
+      "min": 0.005306827168187108,
+      "max": 1.1767422320593246,
+      "worksheet": "[Book3]LIRCMOP1D50"
+    },
+    {
+      "task": "objectives",
+      "problem": "LIRCMOP7",
+      "D": 20,
+      "response": "f1",
+      "points": 40,
+      "min": 0.32269841960466644,
+      "max": 6.927120193374308,
+      "worksheet": "[Book4]LIRCMOP7D20"
+    },
+    {
+      "task": "objectives",
+      "problem": "LIRCMOP7",
+      "D": 20,
+      "response": "f2",
+      "points": 40,
+      "min": 0.2858774764464603,
+      "max": 8.394251766205354,
+      "worksheet": "[Book4]LIRCMOP7D20"
+    },
+    {
+      "task": "objectives",
+      "problem": "LIRCMOP13",
+      "D": 10,
+      "response": "f1",
+      "points": 40,
+      "min": 0.12201915040053954,
+      "max": 2.36608391299128,
+      "worksheet": "[Book5]LIRCMOP13D10"
+    },
+    {
+      "task": "objectives",
+      "problem": "LIRCMOP13",
+      "D": 10,
+      "response": "f2",
+      "points": 40,
+      "min": 0.1151317192919878,
+      "max": 2.3616677857104325,
+      "worksheet": "[Book5]LIRCMOP13D10"
+    },
+    {
+      "task": "objectives",
+      "problem": "LIRCMOP13",
+      "D": 10,
+      "response": "f3",
+      "points": 40,
+      "min": 0.11431433485355928,
+      "max": 2.636373122357772,
+      "worksheet": "[Book5]LIRCMOP13D10"
+    },
+    {
+      "task": "objectives",
+      "exports": {
+        "png": "C:\\Users\\LOCAL_USER\\Documents\\ChatGPT\\New project\\output\\CSASS_Round2_HV_20261104\\Accuracy_Statistics\\Origin_Figures_20261105\\four_cases_objectives_Origin_demo.png",
+        "pdf": "C:\\Users\\LOCAL_USER\\Documents\\ChatGPT\\New project\\output\\CSASS_Round2_HV_20261104\\Accuracy_Statistics\\Origin_Figures_20261105\\four_cases_objectives_Origin_demo.pdf"
+      }
+    },
+    {
+      "task": "constraint",
+      "problem": "CF8",
+      "D": 20,
+      "response": "CV",
+      "points": 40,
+      "min": 2.328002705739538,
+      "max": 5.452135953132374,
+      "worksheet": "[Book6]CF8D20"
+    },
+    {
+      "task": "constraint",
+      "problem": "LIRCMOP1",
+      "D": 50,
+      "response": "CV",
+      "points": 40,
+      "min": 0.00036898587256934805,
+      "max": 18.974141434583334,
+      "worksheet": "[Book7]LIRCMOP1D50"
+    },
+    {
+      "task": "constraint",
+      "problem": "LIRCMOP7",
+      "D": 20,
+      "response": "CV",
+      "points": 40,
+      "min": 0.0,
+      "max": 0.07860969582791603,
+      "worksheet": "[Book8]LIRCMOP7D20"
+    },
+    {
+      "task": "constraint",
+      "problem": "LIRCMOP13",
+      "D": 10,
+      "response": "CV",
+      "points": 40,
+      "min": 1.665692793402545,
+      "max": 3.858471192210884,
+      "worksheet": "[Book9]LIRCMOP13D10"
+    },
+    {
+      "task": "constraint",
+      "exports": {
+        "png": "C:\\Users\\LOCAL_USER\\Documents\\ChatGPT\\New project\\output\\CSASS_Round2_HV_20261104\\Accuracy_Statistics\\Origin_Figures_20261105\\four_cases_constraint_Origin_demo.png",
+        "pdf": "C:\\Users\\LOCAL_USER\\Documents\\ChatGPT\\New project\\output\\CSASS_Round2_HV_20261104\\Accuracy_Statistics\\Origin_Figures_20261105\\four_cases_constraint_Origin_demo.pdf"
+      }
+    }
+  ],
+  "no_smoothing": true,
+  "all_stages_retained": true
+}

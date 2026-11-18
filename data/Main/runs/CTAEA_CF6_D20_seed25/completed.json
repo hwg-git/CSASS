@@ -1,0 +1,52 @@
+{
+  "ID": "CTAEA_CF6_D20_seed25",
+  "Algorithm": "CTAEA",
+  "Problem": "CF6",
+  "D": 20,
+  "M": 2,
+  "Seed": 25,
+  "N": 100,
+  "MaxFE": 500,
+  "Status": "completed",
+  "FE": 500,
+  "InitialN": 100,
+  "Files": [
+    {
+      "Path": "result.json",
+      "SHA256": "3be129e1420c78a7105cb00ba9970989729b8f55bf68b0be7a2d7e117c4c4b9a"
+    },
+    {
+      "Path": "result.mat",
+      "SHA256": "7552b52ce1c9e2d198ae6177eedb5c30dc46f66ee890aa65f314ed62d4c49759"
+    },
+    {
+      "Path": "precision_ledger.csv",
+      "SHA256": "ed989bd483bfd71ebbaf518c69da7b356afa913a228d37166c13d549d0655dc9"
+    },
+    {
+      "Path": "final_decisions.csv",
+      "SHA256": "661ec9cc89d10638b0db22e5f63a61f990f65d4a8a6c8da57b83b29c4949ef42"
+    },
+    {
+      "Path": "final_objectives.csv",
+      "SHA256": "2b22b432b593fdd86956a04b96a4dad7e84561cadb36b5a8a16a96a49173fcf4"
+    },
+    {
+      "Path": "final_constraints.csv",
+      "SHA256": "32767b69bfcb3da6f28cffec103ea2ca8434dd6472ae7a92058921cb1addcbc2"
+    },
+    {
+      "Path": "initial_decisions.csv",
+      "SHA256": "d2295a2f309c67587e322c2bd5bc35fd49de110d2faab53b18c1c04bc55dc311"
+    },
+    {
+      "Path": "native_final.csv",
+      "SHA256": "33015a963a9162e48acc92741535b133800c726bfd8bf115ccb0763d6cf5522f"
+    },
+    {
+      "Path": "configuration.json",
+      "SHA256": "1d0a824f5d2d4bb41354cc7835308da7d4bfc20525706b6df0628729eedc8916"
+    }
+  ],
+  "SourceCodeLockSHA256": "ab2e1ac4b0458d0ecd41de79844fa00e2d9788083a96f90326109e4c66a6f2f2"
+}

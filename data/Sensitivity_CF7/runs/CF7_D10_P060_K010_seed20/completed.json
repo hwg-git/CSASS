@@ -1,0 +1,77 @@
+{
+  "Status": "completed",
+  "ID": "CF7_D10_P060_K010_seed20",
+  "FE": 500,
+  "Task": {
+    "ID": "CF7_D10_P060_K010_seed20",
+    "Problem": "CF7",
+    "D": 10,
+    "Pmax": 60,
+    "K": 10,
+    "Seed": 20,
+    "N": 100,
+    "MaxFE": 500
+  },
+  "UTC": "2026-11-09T03:46:30.137Z",
+  "ProtocolSHA256": "1e4636e1d45b8f576527916489be579f3a62bb2fab7499871c978236dc3bb4a9",
+  "SourceLockSHA256": "0afc9c5e4a6c949230230b6a52caa5c4c28b9b939ffc988ea49141bd1529d7e5",
+  "RunnerSHA256": "38428791a5aa461161b11d40cd1510512b04b4a35d6da6de0c9bf55ad5982e73",
+  "Files": [
+    {
+      "Path": "started.json",
+      "SHA256": "8d67ccf754d363b3a758fe879e4720b7b4563899aa95cd7359795be7501cbb75"
+    },
+    {
+      "Path": "configuration.json",
+      "SHA256": "6ec70a24882b7063ab4f7ef0bfb5a902b5c708a46445786b87e4549fc9626ee6"
+    },
+    {
+      "Path": "result.json",
+      "SHA256": "fec805603a4e4c2a9862662afcccaa5123b408ef23a95a38381681ae9670220a"
+    },
+    {
+      "Path": "precision_ledger.csv",
+      "SHA256": "af253365fe5040bb4a58856aef2acee3b34c74319bbed0875a152b2a0b5ca3b7"
+    },
+    {
+      "Path": "final_objectives.csv",
+      "SHA256": "bb62d5aaa6f19fe3b5bb43c662a0d8d9eee602ac452981884bf069671621a8cd"
+    },
+    {
+      "Path": "final_decisions.csv",
+      "SHA256": "b8a8e469331ff2119d26341fbc05ed5567d281130a450253fbb33d1bb8a67b7d"
+    },
+    {
+      "Path": "model_selection.csv",
+      "SHA256": "f3228b6fdd83700e2e435eb57e4aaf15ae16cbb636ee518dfaa61b3db7ee6fea"
+    },
+    {
+      "Path": "prediction_errors.csv",
+      "SHA256": "1b43895623c6647fb99d8fd250bd34c99da23524a3d51583f48b46f614496dbc"
+    },
+    {
+      "Path": "training_ids.csv",
+      "SHA256": "eb4e5c21e97a57262605177f1d486a96c5776253f0f418e200f6c801b0e53555"
+    },
+    {
+      "Path": "fit_times.csv",
+      "SHA256": "6949197733e22f127061d3ad4ba842499456b94e7430448d1b0653a897f2ea46"
+    },
+    {
+      "Path": "final_training_archive.csv",
+      "SHA256": "2cf0ee60bb983960f036ecc85470b61e6d76aabbf8c4f9a8a5afaf4797dfb719"
+    },
+    {
+      "Path": "final_surrogate_population_NOT_TRUE.csv",
+      "SHA256": "0c359b2373176bfd46ef43dbac85b5be9549a87c4b2f982b7cd076acac88494d"
+    },
+    {
+      "Path": "progress.json",
+      "SHA256": "952d36353b15239c0b193b52c8c18e4ebea1d6911b0f91a9bc1cf01fdbeda236"
+    },
+    {
+      "Path": "diagnostic_result.mat",
+      "SHA256": "9220eae357064228737166cc81b420f9137d8e002e9c70851602e73464693546"
+    }
+  ]
+}

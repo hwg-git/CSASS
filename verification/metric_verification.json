@@ -1,0 +1,170 @@
+{
+  "Status": "pass",
+  "SavedSetsChecked": 15120,
+  "MainRuns": 12960,
+  "ControlRuns": 2160,
+  "SharedAdaptiveRowsNotDoubleCounted": 540,
+  "ReferenceRequest": 10000,
+  "ObjectiveScale": 1,
+  "HVReference": 1.1,
+  "HVNormalization": "PF10000 column minimum and range; no clipping; no box-volume division",
+  "HVAlgorithm": "Exact 2D sweep and exact 3D slice union",
+  "AbsoluteTolerance": 1e-10,
+  "RelativeTolerance": 1e-09,
+  "ToleranceRationale": "Allows roundoff from independent floating-point arithmetic and saved CSV decimal representation; no data altered",
+  "MaximumAbsoluteDifferences": {
+    "IGD": 6.110667527536862e-13,
+    "HV1p1": 5.551115123125783e-16
+  },
+  "ReferenceFronts": [
+    {
+      "Problem": "CF1",
+      "Points": 21,
+      "Objectives": 2,
+      "SHA256": "7447d235fe09d1c342163c40cb15465357e56789e1ddabf80003a551528bd7ed"
+    },
+    {
+      "Problem": "CF2",
+      "Points": 6251,
+      "Objectives": 2,
+      "SHA256": "661070b03b716ff2f8c891ebcf7d1c62d76f6246ee9c742584f5a5d8c6ffea14"
+    },
+    {
+      "Problem": "CF3",
+      "Points": 3412,
+      "Objectives": 2,
+      "SHA256": "54c6561551d6b7460eb6a33894b54413ea1e8e875e9deeab3792033f3fa11a30"
+    },
+    {
+      "Problem": "CF4",
+      "Points": 10000,
+      "Objectives": 2,
+      "SHA256": "df9f1159d1467b93138754c37726627ccc1e3bb40d1b09389680b956545457b6"
+    },
+    {
+      "Problem": "CF5",
+      "Points": 10000,
+      "Objectives": 2,
+      "SHA256": "df9f1159d1467b93138754c37726627ccc1e3bb40d1b09389680b956545457b6"
+    },
+    {
+      "Problem": "CF6",
+      "Points": 10000,
+      "Objectives": 2,
+      "SHA256": "7aa017de23face07728a6c8afc75d2ae6cceefa0fbcc3553bc1d6064e27d0bfa"
+    },
+    {
+      "Problem": "CF7",
+      "Points": 10000,
+      "Objectives": 2,
+      "SHA256": "7aa017de23face07728a6c8afc75d2ae6cceefa0fbcc3553bc1d6064e27d0bfa"
+    },
+    {
+      "Problem": "CF8",
+      "Points": 10000,
+      "Objectives": 3,
+      "SHA256": "0feefc074fe0192b18498ac145f30bd160ee960fcad76a7073bb3459f108fb9f"
+    },
+    {
+      "Problem": "CF9",
+      "Points": 5078,
+      "Objectives": 3,
+      "SHA256": "15eba3fe9c65c57500261b47e3c3f5b18cc8d87eac67c101da3e95320a78d3ab"
+    },
+    {
+      "Problem": "CF10",
+      "Points": 5078,
+      "Objectives": 3,
+      "SHA256": "15eba3fe9c65c57500261b47e3c3f5b18cc8d87eac67c101da3e95320a78d3ab"
+    },
+    {
+      "Problem": "LIRCMOP1",
+      "Points": 10000,
+      "Objectives": 2,
+      "SHA256": "b9463804fcb829672d772846ab70e4725609f59fad2f9c66db8a2ceb087e7d85"
+    },
+    {
+      "Problem": "LIRCMOP2",
+      "Points": 10000,
+      "Objectives": 2,
+      "SHA256": "d1d2678bfa664179b2b794e82cb515a88cb7fdb733da79e08fb93ecea9cfad43"
+    },
+    {
+      "Problem": "LIRCMOP3",
+      "Points": 3333,
+      "Objectives": 2,
+      "SHA256": "f24f6ea61b35f03e5504ca0ece277cc14507b72e9762904c2e24b59e0eff2dca"
+    },
+    {
+      "Problem": "LIRCMOP4",
+      "Points": 3333,
+      "Objectives": 2,
+      "SHA256": "222244949fb51f46e5392bbbe8ef6bae8856be8ef998979b6e4f3fc2cb1cb91f"
+    },
+    {
+      "Problem": "LIRCMOP5",
+      "Points": 10000,
+      "Objectives": 2,
+      "SHA256": "6e45ec53b51b80c5f7bf3e9439c2f38fc4b382a978244b57ea4a0cf92ed07ab2"
+    },
+    {
+      "Problem": "LIRCMOP6",
+      "Points": 10000,
+      "Objectives": 2,
+      "SHA256": "d0a1a0862d3dc2caeab2f399cdb0f7de61495af679a23ca5c5b13670f9ddbb76"
+    },
+    {
+      "Problem": "LIRCMOP7",
+      "Points": 10000,
+      "Objectives": 2,
+      "SHA256": "93ac32f185f0d1cfe20a66f61c1c456091cf209a22fbc18cebc202f8f432aa5f"
+    },
+    {
+      "Problem": "LIRCMOP8",
+      "Points": 10000,
+      "Objectives": 2,
+      "SHA256": "93ac32f185f0d1cfe20a66f61c1c456091cf209a22fbc18cebc202f8f432aa5f"
+    },
+    {
+      "Problem": "LIRCMOP9",
+      "Points": 3216,
+      "Objectives": 2,
+      "SHA256": "7c34b2c27a23319f17b9071b1fef1ca39f78e31f18186a984dca2509b5ed0011"
+    },
+    {
+      "Problem": "LIRCMOP10",
+      "Points": 4749,
+      "Objectives": 2,
+      "SHA256": "082c1018fac75563058b7666a2ff1822359ec9ab6fe4254bf15aae41ba51116e"
+    },
+    {
+      "Problem": "LIRCMOP11",
+      "Points": 7,
+      "Objectives": 2,
+      "SHA256": "aef30379acb2e5674d3d342f43777a8436da8b59c3ce9906b9378301ba60c4bd"
+    },
+    {
+      "Problem": "LIRCMOP12",
+      "Points": 8,
+      "Objectives": 2,
+      "SHA256": "bd51e5f3fdf8a4725cea3d4253f19cbca1ef34c7eea81cddb8fe2e98c04408bf"
+    },
+    {
+      "Problem": "LIRCMOP13",
+      "Points": 9870,
+      "Objectives": 3,
+      "SHA256": "7f2f678bc7d99d091f0042e6adf84012338916912fda72d82ad4bdc897bc694a"
+    },
+    {
+      "Problem": "LIRCMOP14",
+      "Points": 9870,
+      "Objectives": 3,
+      "SHA256": "d98dd4a38a41c643c2e3719a8be82a22ccd7ad3f40b0143b4d4ccfab586cb810"
+    }
+  ],
+  "Failures": [],
+  "ElapsedSeconds": 136.40600000001723,
+  "OptimizationRuns": 0,
+  "NewEvaluations": 0,
+  "ModelFits": 0
+}

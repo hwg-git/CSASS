@@ -1,0 +1,66 @@
+{
+  "Status": "completed",
+  "status": "completed",
+  "ID": "V2_LIRCMOP13_D20_fixed_kriging_obj_rbf_con_seed24",
+  "Version": "V2",
+  "Problem": "LIRCMOP13",
+  "D": 20,
+  "Seed": 24,
+  "Mode": "fixed_kriging_obj_rbf_con",
+  "FE": 500,
+  "Files": [
+    {
+      "Path": "result.json",
+      "SHA256": "34442b81eab06e3a28c55ba48b2413f5d84e00792421414bed524ff8ccfc730a"
+    },
+    {
+      "Path": "precision_ledger.csv",
+      "SHA256": "056fe627a0336b2be8e3dcdea9e2874fc23dd89c8adc31ba58824452ae7ef20d"
+    },
+    {
+      "Path": "final_objectives.csv",
+      "SHA256": "4898fc6cbfbc6360a4d4b422e5cd5400ce53c4edef35660d7aa32b1a392276f2"
+    },
+    {
+      "Path": "final_decisions.csv",
+      "SHA256": "c0ebf952e4e3a4aea58ec27c6acd643a4aa0b78b107f14521cb6d31233b4623e"
+    },
+    {
+      "Path": "model_selection.csv",
+      "SHA256": "1eea949c2117285ad4532ca79baa64a84ebed51a16f5404acee46b31b2fbee08"
+    },
+    {
+      "Path": "prediction_errors.csv",
+      "SHA256": "f7fcac7cde97e5516b1351ff29e231aee49d1a280f2bf6a823c6b9baeb859a8e"
+    },
+    {
+      "Path": "training_ids.csv",
+      "SHA256": "616b75d189aca7c739e1774deba70c31f46a617621f25e7c8b6abcac16d0a04b"
+    },
+    {
+      "Path": "stage_flags.csv",
+      "SHA256": "247e67b6a2a74dc3b0a0ce2de3bc70d1a2beb0c7f358b3ae4d5d1974aa9ae43f"
+    },
+    {
+      "Path": "fit_times.csv",
+      "SHA256": "59b5ea7d6c69a8c90eca8614c44bd41ad357caec8828b65dc12404307bcd07dd"
+    },
+    {
+      "Path": "final_training_archive.csv",
+      "SHA256": "90e39b26e12533835f4063c8cac4fcc534794564ca2a41fb104b5a21d748bceb"
+    },
+    {
+      "Path": "final_surrogate_population_NOT_TRUE.csv",
+      "SHA256": "6f155f3501df6a87eb494d00ac3230f7ccbad369858714f08fccc5eef9b03327"
+    },
+    {
+      "Path": "configuration.json",
+      "SHA256": "34db5aeeb7d811a1f723d22e0fdc93a519907195634a5038012d9d9abab8f0ea"
+    },
+    {
+      "Path": "diagnostic_result.mat",
+      "SHA256": "8c7a770941a147311085c676edc0cb9d5079fa168934e9ca5739f9ccefaba180"
+    }
+  ],
+  "CompletedUTC": "2026-11-04 16:25:33"
+}

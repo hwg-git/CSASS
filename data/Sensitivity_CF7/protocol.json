@@ -1,0 +1,106 @@
+{
+  "EngineRoot": "C:/Users/LOCAL_USER/Documents/ChatGPT/New project/outputs/CSASS_V2_AllBenchmarks_6Workers_20261104/CSASS_V2_AllBenchmarks_MATLAB",
+  "D": 10,
+  "N": 100,
+  "MaxFE": 500,
+  "Seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "Grid": [
+    {
+      "Pmax": 20,
+      "K": 10
+    },
+    {
+      "Pmax": 40,
+      "K": 10
+    },
+    {
+      "Pmax": 60,
+      "K": 10
+    },
+    {
+      "Pmax": 80,
+      "K": 10
+    },
+    {
+      "Pmax": 100,
+      "K": 10
+    },
+    {
+      "Pmax": 20,
+      "K": 5
+    },
+    {
+      "Pmax": 20,
+      "K": 15
+    },
+    {
+      "Pmax": 20,
+      "K": 20
+    },
+    {
+      "Pmax": 20,
+      "K": 30
+    }
+  ],
+  "SessionMaxSeconds": 14400,
+  "MaxNewRuns": 240,
+  "Problem": "CF7",
+  "Mode": "adaptive",
+  "RBFKernel": "multiquadric",
+  "ReferencePoints": 10000,
+  "ObjectiveScale": 1,
+  "Workers": 1,
+  "ComputeThreads": 1,
+  "CachedRuns": 30,
+  "TotalRuns": 270,
+  "MaxNewTrueEvaluations": 120000,
+  "BaselineCSV": "C:/Users/LOCAL_USER/Documents/ChatGPT/New project/outputs/CSASS_V2_AllBenchmarks_6Workers_20261104/CSASS_V2_AllBenchmarks_MATLAB/baseline/completed_runs.csv",
+  "Purpose": "Fixed one-factor verification of parameter-sensitivity trends, not historical-value tuning.",
+  "UserAuthorization": "User requested test; confirmed CF7 D10. Other parameter fixed at current default.",
+  "HistoricalComparison": {
+    "HistoricalDimension": "not documented",
+    "OtherFixedParameter": "not explicitly documented; current defaults fixed for this verification",
+    "HistoricalRunLevelIGD": "not recovered; only graphical trend comparison is possible"
+  },
+  "StopConditions": [
+    "All 240 new trials complete",
+    "First trial/source/metric integrity error",
+    "Four hours of dispatch time reached; finish active trial"
+  ],
+  "FailurePolicy": "Retain partial or failed records; no automatic retries or seed replacement",
+  "ManuscriptPolicy": "No manuscript, response letter, or historical result changes",
+  "NetworkScope": "none",
+  "ReportDestination": "local-only",
+  "CreatedLocal": "2026-11-09T10:53:39.961119+08:00"
+}

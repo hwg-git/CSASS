@@ -1,0 +1,102 @@
+{
+  "DefaultAction": "help",
+  "DefaultModeForExplicitAction": "preflight",
+  "HelpReturnsBeforePathChanges": true,
+  "ExperimentOnlyExplicitRun": true,
+  "Routes": [
+    {
+      "PublicAction": "benchmark",
+      "Entry": "MAIN_CSASS_V2_ALL",
+      "PreflightSupported": true,
+      "ActualAllowedModes": [
+        "run",
+        "plan",
+        "preflight",
+        "summarize",
+        "collect",
+        "hv"
+      ]
+    },
+    {
+      "PublicAction": "ablation10",
+      "Entry": "MAIN_CSASS_V2_D10",
+      "PreflightSupported": true,
+      "ActualAllowedModes": [
+        "run",
+        "plan",
+        "preflight",
+        "summarize",
+        "collect",
+        "hv",
+        "import"
+      ]
+    },
+    {
+      "PublicAction": "ablation2050",
+      "Entry": "MAIN_CSASS_ABLATION",
+      "PreflightSupported": true,
+      "ActualAllowedModes": [
+        "run",
+        "run_independent",
+        "plan",
+        "preflight",
+        "summarize",
+        "collect",
+        "hv",
+        "import"
+      ]
+    },
+    {
+      "PublicAction": "runtime",
+      "Entry": "MAIN_CSASS_RUNTIME",
+      "PreflightSupported": true,
+      "ActualAllowedModes": [
+        "preflight",
+        "selftest",
+        "collect",
+        "stop",
+        "run",
+        "status",
+        "summarize"
+      ]
+    },
+    {
+      "PublicAction": "opponents_missing8",
+      "Entry": "MAIN_MISSING8",
+      "PreflightSupported": true,
+      "ActualAllowedModes": [
+        "run",
+        "plan",
+        "preflight",
+        "summarize",
+        "collect",
+        "selftest"
+      ]
+    },
+    {
+      "PublicAction": "sensitivity",
+      "Entry": "PUBLIC_CF7_SENSITIVITY",
+      "PreflightSupported": true,
+      "ActualAllowedModes": [
+        "plan",
+        "preflight",
+        "run",
+        "status",
+        "summarize"
+      ]
+    },
+    {
+      "PublicAction": "opponents_full",
+      "Entry": "PUBLIC_OPPONENTS_FULL",
+      "PreflightSupported": true,
+      "ActualAllowedModes": [
+        "help",
+        "plan",
+        "preflight",
+        "run",
+        "status",
+        "summarize"
+      ]
+    }
+  ]
+}

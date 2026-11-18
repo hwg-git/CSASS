@@ -1,0 +1,177 @@
+{
+  "Status": "pass",
+  "MainRuns": 12960,
+  "MainGroups": 432,
+  "AblationRows": 2700,
+  "AblationGroups": 90,
+  "SharedAdaptiveRuns": 540,
+  "UniqueMainPlusControls": 15120,
+  "MainFinalSetsVerified": 12960,
+  "StatsRecomputed": {
+    "main": 864,
+    "ablation": 90
+  },
+  "MainZeroHV": 10564,
+  "MainNoFeasible": 2686,
+  "MainFeasibleZeroHV": 7878,
+  "CoverageTotals": {
+    "precision_ledger.csv": 11550,
+    "native_final.csv": 9450,
+    "final_decisions.csv": 5640,
+    "final_constraints.csv": 3600,
+    "prediction_errors.csv": 2094,
+    "model_selection.csv": 2154,
+    "training_ids.csv": 2094,
+    "result.json": 12954,
+    "completed.json": 12954,
+    "failure.json": 6
+  },
+  "ArchiveCohortSizes": {
+    "05_Data/Main/runs": [
+      103890,
+      4627250798,
+      2037382778
+    ],
+    "05_Data/Ablation/controls": [
+      28080,
+      1332263549,
+      488673717
+    ],
+    "05_Data/Process/CF2_exact_ledger_replay": [
+      54,
+      1965012,
+      682009
+    ],
+    "05_Data/Main/main_runs.csv": [
+      1,
+      2761326,
+      762868
+    ],
+    "05_Data/Ablation/ablation_runs.csv": [
+      1,
+      570638,
+      96607
+    ],
+    "05_Data/Ablation/shared_adaptive_runs.csv": [
+      1,
+      98871,
+      26997
+    ],
+    "05_Data/Provenance/original_main_run_index.csv": [
+      1,
+      6397775,
+      531628
+    ],
+    "05_Data/Provenance/original_ablation_run_index.csv": [
+      1,
+      731837,
+      234643
+    ],
+    "05_Data/Provenance/final_main_evidence_coverage.csv": [
+      1,
+      4889669,
+      800044
+    ],
+    "05_Data/Main/tables": [
+      3,
+      109283,
+      25783
+    ],
+    "05_Data/Ablation/tables": [
+      9,
+      32954788,
+      5043107
+    ],
+    "05_Data/HV_Reference_Sensitivity/hv_reference_sensitivity_comparisons.csv": [
+      1,
+      28283,
+      8887
+    ],
+    "05_Data/HV_Reference_Sensitivity/hv_reference_sensitivity_groups.csv": [
+      1,
+      19537,
+      5375
+    ],
+    "05_Data/HV_Reference_Sensitivity/hv_reference_sensitivity_summary.csv": [
+      1,
+      5089,
+      1485
+    ],
+    "05_Data/HV_Reference_Sensitivity/hv_reference_sensitivity_totals.csv": [
+      1,
+      191,
+      137
+    ],
+    "05_Data/Process/Latest18": [
+      9,
+      8943891,
+      1864333
+    ],
+    "05_Data/Process/PhaseAnalysis_Source": [
+      23,
+      85810224,
+      23185765
+    ],
+    "05_Data/Process/ModelUsage": [
+      4,
+      65029,
+      11430
+    ],
+    "05_Data/CF7_Verification_NotUsedInFigure6/all_runs.csv": [
+      1,
+      76299,
+      17263
+    ],
+    "05_Data/CF7_Verification_NotUsedInFigure6/CF7_sensitivity_results.xlsx": [
+      1,
+      41516,
+      41516
+    ],
+    "05_Data/CF7_Verification_NotUsedInFigure6/comparison_summary.csv": [
+      1,
+      4148,
+      2029
+    ],
+    "05_Data/CF7_Verification_NotUsedInFigure6/comparison_中文.txt": [
+      1,
+      2307,
+      1319
+    ],
+    "05_Data/CF7_Verification_NotUsedInFigure6/final_audit.json": [
+      1,
+      1193,
+      690
+    ],
+    "05_Data/CF7_Verification_NotUsedInFigure6/group_summary.csv": [
+      1,
+      4888,
+      1915
+    ],
+    "05_Data/CF7_Verification_NotUsedInFigure6/independent_audit.json": [
+      1,
+      54706,
+      13159
+    ],
+    "05_Data/CF7_Verification_NotUsedInFigure6/protocol.json": [
+      1,
+      2379,
+      1006
+    ],
+    "05_Data/CF7_Verification_NotUsedInFigure6/source_hashes.json": [
+      1,
+      23791,
+      4605
+    ],
+    "05_Data/CF7_Verification_NotUsedInFigure6/runs": [
+      3360,
+      92225983,
+      32616476
+    ],
+    "05_Data/CF7_Verification_NotUsedInFigure6/baseline": [
+      33,
+      158702,
+      47132
+    ]
+  },
+  "Issues": []
+}

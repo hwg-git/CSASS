@@ -1,0 +1,66 @@
+{
+  "Status": "completed",
+  "status": "completed",
+  "ID": "V2_CF8_D10_fixed_kriging_obj_rbf_con_seed21",
+  "Version": "V2",
+  "Problem": "CF8",
+  "D": 10,
+  "Seed": 21,
+  "Mode": "fixed_kriging_obj_rbf_con",
+  "FE": 500,
+  "Files": [
+    {
+      "Path": "result.json",
+      "SHA256": "fcc804353411bf02544f155ca074e3214f425188b85b08371a0652c3fbb215fd"
+    },
+    {
+      "Path": "precision_ledger.csv",
+      "SHA256": "a8aeb794182e5b8c8f598281e4d8df4c75a0e3af4e64803c90fd0b51fb4575ce"
+    },
+    {
+      "Path": "final_objectives.csv",
+      "SHA256": "75006944bc4f7831dfa33f692457fc7d97abd16170b6e9655c03dded544274d6"
+    },
+    {
+      "Path": "final_decisions.csv",
+      "SHA256": "3f0e975a3acf3101f709275baa46a6db3bef635f366f1b2d7561f4c3d933a16c"
+    },
+    {
+      "Path": "model_selection.csv",
+      "SHA256": "93da600b8a0c33027344a5579d5dcd9b7669325a97870f8600cd364799fc47a8"
+    },
+    {
+      "Path": "prediction_errors.csv",
+      "SHA256": "20bc2ef0104ea2daaba16bb001719661ce27851357f46444065c070faa4b2c4b"
+    },
+    {
+      "Path": "training_ids.csv",
+      "SHA256": "89a6e7c837a014839a08c22827350a95e37515f1595e3fc7befb25ec0462d372"
+    },
+    {
+      "Path": "stage_flags.csv",
+      "SHA256": "714e5ffb5ca0e823e6de617c3364917506f1ee8ebb338ba53547305bb3e1a0c3"
+    },
+    {
+      "Path": "fit_times.csv",
+      "SHA256": "6533c31b5fbbd4816db6fafd0243073c6214d50fec2bbb2cb96e61a668ac2e9c"
+    },
+    {
+      "Path": "final_training_archive.csv",
+      "SHA256": "ce9f60da4d9049c1661f8f1bb5c87edbf6a1325b9365e506fde2d57f0eac68f1"
+    },
+    {
+      "Path": "final_surrogate_population_NOT_TRUE.csv",
+      "SHA256": "77023034aed2c189959c5db7d9ddbf03df2f45f0032720e0f28a57f4ddfb5815"
+    },
+    {
+      "Path": "configuration.json",
+      "SHA256": "5543d6038b62a23ff792859b8395444bceb5047d204acd84ffebd7e10b0f6de1"
+    },
+    {
+      "Path": "diagnostic_result.mat",
+      "SHA256": "abd461603a8f841ee73069263d26c1166357e833166b9251944840340a99096c"
+    }
+  ],
+  "CompletedUTC": "2026-11-04 09:06:22"
+}

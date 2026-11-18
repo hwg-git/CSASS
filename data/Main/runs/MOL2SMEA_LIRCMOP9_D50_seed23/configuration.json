@@ -1,0 +1,111 @@
+{
+  "Task": {
+    "ID": "MOL2SMEA_LIRCMOP9_D50_seed23",
+    "Algorithm": "MOL2SMEA",
+    "Problem": "LIRCMOP9",
+    "D": 50,
+    "M": 2,
+    "Seed": 23,
+    "N": 100,
+    "MaxFE": 500
+  },
+  "Options": {
+    "AlgorithmParameters": [],
+    "ActualN": 100,
+    "InitialN": 100
+  },
+  "MATLAB": "23.2.0.2380103 (R2023b) Update 1",
+  "Toolboxes": [
+    {
+      "Name": "Data Acquisition Toolbox",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    },
+    {
+      "Name": "Database Toolbox",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    },
+    {
+      "Name": "Deep Learning Toolbox",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    },
+    {
+      "Name": "GPU Coder",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    },
+    {
+      "Name": "Global Optimization Toolbox",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    },
+    {
+      "Name": "MATLAB",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    },
+    {
+      "Name": "MATLAB Coder",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    },
+    {
+      "Name": "MATLAB Compiler",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    },
+    {
+      "Name": "MATLAB Compiler SDK",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    },
+    {
+      "Name": "Mapping Toolbox",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    },
+    {
+      "Name": "Navigation Toolbox",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    },
+    {
+      "Name": "Optimization Toolbox",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    },
+    {
+      "Name": "Parallel Computing Toolbox",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    },
+    {
+      "Name": "Statistics and Machine Learning Toolbox",
+      "Version": "23.2",
+      "Release": "(R2023b)",
+      "Date": "01-Aug-2023"
+    }
+  ],
+  "ThreadsPerTrial": 1,
+  "PrimaryIGDPFRequest": 10000,
+  "PrimaryHVReference": 1.1,
+  "Initialization": "unchanged shared csass.lhs",
+  "CommonOutputN": 100,
+  "RawConstraintRule": "sum(max(0,G),2)",
+  "SourceCodeLockSHA256": "ab2e1ac4b0458d0ecd41de79844fa00e2d9788083a96f90326109e4c66a6f2f2"
+}

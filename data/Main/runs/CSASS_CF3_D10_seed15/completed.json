@@ -1,0 +1,65 @@
+{
+  "Status": "completed",
+  "status": "completed",
+  "ID": "V2_CF3_D10_seed15",
+  "Version": "V2",
+  "Problem": "CF3",
+  "D": 10,
+  "Seed": 15,
+  "FE": 500,
+  "Files": [
+    {
+      "Path": "result.json",
+      "SHA256": "f82cc786da8cd897e2bc5a6e528913c66f400407bf6dbd702a282188e537fb6c"
+    },
+    {
+      "Path": "precision_ledger.csv",
+      "SHA256": "d9ca3c01611b3d8fddad7dfaeab0eeca38d193d584fd2f48006db15050bf9363"
+    },
+    {
+      "Path": "final_objectives.csv",
+      "SHA256": "23e082629ea0961d5253b8282309ee44555efb3f38dd00f0a88e5380597a679e"
+    },
+    {
+      "Path": "final_decisions.csv",
+      "SHA256": "5f52e7af412506f10f98856c4e68d57540fe73c02fa2ce5f507a4be24a9ac1d7"
+    },
+    {
+      "Path": "model_selection.csv",
+      "SHA256": "8a4ce23e5585c76c90f811277c2592567029b896186e957a94a27c4db5a0805b"
+    },
+    {
+      "Path": "prediction_errors.csv",
+      "SHA256": "c77bcef164a993673a764d8257674d78be035f1d95bf46f8b72d60af91b12ba9"
+    },
+    {
+      "Path": "training_ids.csv",
+      "SHA256": "4e602fcfea999a25cc1d66aba2140f44e2ac626237242f0418ef543faa920fd6"
+    },
+    {
+      "Path": "stage_flags.csv",
+      "SHA256": "aa1eeb88a65bc8f05f2e869d465a5be251714c0dfb81b9401e432c81486f7408"
+    },
+    {
+      "Path": "fit_times.csv",
+      "SHA256": "bcadce919d39a5fc16946eaab0b6a6fe75a1b7ece4699da28b066162730ce0df"
+    },
+    {
+      "Path": "final_training_archive.csv",
+      "SHA256": "40f7c19395700df5b6c6da51b5eb4c8e85ad1920cbb3f7b463ef87c56d276f07"
+    },
+    {
+      "Path": "final_surrogate_population_NOT_TRUE.csv",
+      "SHA256": "0487bd13bb6231e89301a513a05483f82b7f4f1cea240d27d93b6bd3e59a5c6e"
+    },
+    {
+      "Path": "configuration.json",
+      "SHA256": "68039eda2997cc0eb4e3f33aa130cff113fe38881accf015840921f3d1ced581"
+    },
+    {
+      "Path": "diagnostic_result.mat",
+      "SHA256": "9822a27d69516581bd926d94b6e37703c200f0f768f5fc7ac66ba06ddbb75438"
+    }
+  ],
+  "CompletedUTC": "2026-11-04 06:58:51"
+}

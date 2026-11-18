@@ -1,0 +1,24 @@
+{
+  "Task": {
+    "ID": "CTAEA_CF1_D20_seed02",
+    "Algorithm": "CTAEA",
+    "Problem": "CF1",
+    "D": 20,
+    "Seed": 2,
+    "Index": 191
+  },
+  "PopulationPolicy": "Nominal100; ANSGAIII/CTAEA actual100 for2obj,91 for3obj; other algorithms100",
+  "Options": {
+    "AlgorithmParameters": [],
+    "ActualN": 100,
+    "InitialN": 100
+  },
+  "CommonOutputN": 100,
+  "HVReference": [
+    1.1,
+    1.1
+  ],
+  "RawConstraintRule": "sum(max(0,G),2)",
+  "MATLAB": "23.2.0.2380103 (R2023b) Update 1",
+  "Threads": 1
+}

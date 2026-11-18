@@ -1,0 +1,339 @@
+{
+  "Status": "pass",
+  "OptimizationRuns": 0,
+  "DataModified": false,
+  "PythonVersion": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "MatplotlibVersion": "3.10.7",
+  "NumpyVersion": "2.5.4",
+  "Figure2": {
+    "File": {
+      "Pixels": [
+        4351,
+        2725
+      ],
+      "DPI": [
+        299.9994,
+        299.9994
+      ],
+      "SHA256": "95f381354ce838ab0fb09cd90c22022be78b7dab63268ba2792098674c0ce619"
+    },
+    "Problem": "CF2",
+    "D": 10,
+    "RunsPerAlgorithm": 30,
+    "RepresentativeRun": "IGD ascending, seed ascending tie-break; rank 15 of 30 (lower middle actual run).",
+    "Objectives": "Raw objective values; no normalization, jitter, smoothing, or pooling.",
+    "Limits": {
+      "f1": [
+        0.0,
+        4.5
+      ],
+      "f2": [
+        0.0,
+        4.5
+      ]
+    },
+    "TotalPoints": 58,
+    "ReferenceFrontRequestedPoints": 10000,
+    "ReferenceFrontActualPoints": 6251,
+    "ReferenceFrontSegmentLengths": [
+      1,
+      1875,
+      4375
+    ],
+    "ReferenceFront": "Disconnected intervals plotted separately, including isolated point (0,1).",
+    "SourceRuns": [
+      {
+        "Algorithm": "ANSGAIII",
+        "Seed": 24,
+        "Rank": 15,
+        "IGD": 0.4975510180395769,
+        "Points": 7,
+        "AllPointsVisible": true,
+        "ObjectiveMinimum": [
+          0.3713912587794803,
+          0.23057347102121864
+        ],
+        "ObjectiveMaximum": [
+          1.3724164090230775,
+          2.2956278598050295
+        ]
+      },
+      {
+        "Algorithm": "CTAEA",
+        "Seed": 19,
+        "Rank": 15,
+        "IGD": 0.4406726355291478,
+        "Points": 11,
+        "AllPointsVisible": true,
+        "ObjectiveMinimum": [
+          0.22157244223466724,
+          0.2294033599561842
+        ],
+        "ObjectiveMaximum": [
+          1.6578408532514084,
+          2.4446202123429606
+        ]
+      },
+      {
+        "Algorithm": "HeEMOEA",
+        "Seed": 6,
+        "Rank": 15,
+        "IGD": 0.5263719568268401,
+        "Points": 11,
+        "AllPointsVisible": true,
+        "ObjectiveMinimum": [
+          0.25030560089536047,
+          0.23842463653501916
+        ],
+        "ObjectiveMaximum": [
+          3.884976806532496,
+          4.2921589586034194
+        ]
+      },
+      {
+        "Algorithm": "MOL2SMEA",
+        "Seed": 19,
+        "Rank": 15,
+        "IGD": 0.4458475283259653,
+        "Points": 10,
+        "AllPointsVisible": true,
+        "ObjectiveMinimum": [
+          0.09496147228051598,
+          0.2645266418509325
+        ],
+        "ObjectiveMaximum": [
+          3.788418992675877,
+          2.1624970785472293
+        ]
+      },
+      {
+        "Algorithm": "PCSAEA",
+        "Seed": 17,
+        "Rank": 15,
+        "IGD": 0.38152889120002687,
+        "Points": 8,
+        "AllPointsVisible": true,
+        "ObjectiveMinimum": [
+          0.2165318546382165,
+          0.2785169439456804
+        ],
+        "ObjectiveMaximum": [
+          1.4263892049294928,
+          1.3836985421462025
+        ]
+      },
+      {
+        "Algorithm": "CSASS",
+        "Seed": 22,
+        "Rank": 15,
+        "IGD": 0.17600080308841726,
+        "Points": 11,
+        "AllPointsVisible": true,
+        "ObjectiveMinimum": [
+          0.26086708203977926,
+          0.19230333837475105
+        ],
+        "ObjectiveMaximum": [
+          0.996405462813981,
+          1.9016694149065732
+        ]
+      }
+    ]
+  },
+  "Figure6": {
+    "File": {
+      "Pixels": [
+        3900,
+        1744
+      ],
+      "DPI": [
+        299.9994,
+        299.9994
+      ],
+      "SHA256": "83b3da7fedd55ffd669f687e12b765a609aa95bbe475b33f138b10446a1506f0"
+    },
+    "Problem": "CF7",
+    "D": 10,
+    "InitialN": 100,
+    "MaxFE": 500,
+    "IndependentRecords": 270,
+    "Settings": 9,
+    "RunsPerSetting": 30,
+    "Seeds": "1-30",
+    "DefaultSettingPlottedTwice": "Pmax20 K10 is the identical same 30-record group in both panels.",
+    "LeftPanel": "Pmax20,40,60,80,100; K10 fixed",
+    "RightPanel": "K5,10,15,20,30; Pmax20 fixed",
+    "Metric": "Saved IGD10000 in raw objective units; all 270 records finite and included.",
+    "BoxDefinition": "Quartiles: linear interpolation (type 7), matching the saved group_summary; median center; whiskers are extreme data within 1.5 IQR; all outside observations shown as open circles.",
+    "YLimits": [
+      0,
+      10
+    ],
+    "DefaultMean": 3.2026200181802533,
+    "DefaultMedian": 2.684507680382489,
+    "Groups": [
+      {
+        "Pmax": 20,
+        "K": 10,
+        "q1": 2.1799107869905843,
+        "med": 2.684507680382489,
+        "q3": 3.9644356784210433,
+        "whislo": 0.5484869838653625,
+        "whishi": 6.2194950453603814,
+        "fliers": [
+          8.727763421877471
+        ],
+        "mean": 3.2026200181802533,
+        "sd": 1.840810319860602,
+        "n": 30,
+        "minimum": 0.5484869838653625,
+        "maximum": 8.727763421877471
+      },
+      {
+        "Pmax": 40,
+        "K": 10,
+        "q1": 2.133978018014827,
+        "med": 2.9007690026822175,
+        "q3": 4.268155598113621,
+        "whislo": 1.3493550672950663,
+        "whishi": 5.3379053227415465,
+        "fliers": [
+          7.590049247078235
+        ],
+        "mean": 3.267129548235934,
+        "sd": 1.4286570234606906,
+        "n": 30,
+        "minimum": 1.3493550672950663,
+        "maximum": 7.590049247078235
+      },
+      {
+        "Pmax": 60,
+        "K": 10,
+        "q1": 2.36043511365125,
+        "med": 3.0012033740039668,
+        "q3": 4.69718884570683,
+        "whislo": 1.5837608486226047,
+        "whishi": 6.810218628956697,
+        "fliers": [
+          8.557629114283742
+        ],
+        "mean": 3.6504757858416994,
+        "sd": 1.6776075482162096,
+        "n": 30,
+        "minimum": 1.5837608486226047,
+        "maximum": 8.557629114283742
+      },
+      {
+        "Pmax": 80,
+        "K": 10,
+        "q1": 2.8684287306099283,
+        "med": 3.3560644788495164,
+        "q3": 3.858789345944439,
+        "whislo": 1.5049716988978348,
+        "whishi": 5.258268673008597,
+        "fliers": [
+          9.291812935329213,
+          5.43345995843088
+        ],
+        "mean": 3.566679004766218,
+        "sd": 1.487825429048685,
+        "n": 30,
+        "minimum": 1.5049716988978348,
+        "maximum": 9.291812935329213
+      },
+      {
+        "Pmax": 100,
+        "K": 10,
+        "q1": 2.705737008749761,
+        "med": 3.6807494452515317,
+        "q3": 5.114288449084877,
+        "whislo": 1.0120540803944553,
+        "whishi": 8.147305210447948,
+        "fliers": [],
+        "mean": 3.8068916849408665,
+        "sd": 1.8204518475302707,
+        "n": 30,
+        "minimum": 1.0120540803944553,
+        "maximum": 8.147305210447948
+      },
+      {
+        "Pmax": 20,
+        "K": 5,
+        "q1": 1.869268579072474,
+        "med": 2.792769566504786,
+        "q3": 3.4821580361683884,
+        "whislo": 0.6465292713281177,
+        "whishi": 5.6850920112227765,
+        "fliers": [
+          7.73618875044708,
+          7.7136463182507145
+        ],
+        "mean": 3.013382364612978,
+        "sd": 1.7562602304502606,
+        "n": 30,
+        "minimum": 0.6465292713281177,
+        "maximum": 7.73618875044708
+      },
+      {
+        "Pmax": 20,
+        "K": 15,
+        "q1": 1.7636394036517462,
+        "med": 2.72958900568868,
+        "q3": 4.0698943869776265,
+        "whislo": 0.9219596829219712,
+        "whishi": 5.6201317970117675,
+        "fliers": [],
+        "mean": 2.911797969866461,
+        "sd": 1.325560528929523,
+        "n": 30,
+        "minimum": 0.9219596829219712,
+        "maximum": 5.6201317970117675
+      },
+      {
+        "Pmax": 20,
+        "K": 20,
+        "q1": 2.1433622174814237,
+        "med": 2.729504273945827,
+        "q3": 3.680823442473534,
+        "whislo": 0.9475868504565224,
+        "whishi": 5.474372229885199,
+        "fliers": [],
+        "mean": 3.0231158336374904,
+        "sd": 1.1849975598194151,
+        "n": 30,
+        "minimum": 0.9475868504565224,
+        "maximum": 5.474372229885199
+      },
+      {
+        "Pmax": 20,
+        "K": 30,
+        "q1": 2.433329269386072,
+        "med": 3.1435651712169435,
+        "q3": 3.8474814739816963,
+        "whislo": 0.7760645460517263,
+        "whishi": 5.918724483848861,
+        "fliers": [
+          6.74471804792927,
+          6.085271427310036
+        ],
+        "mean": 3.2824750342356426,
+        "sd": 1.4271220876911381,
+        "n": 30,
+        "minimum": 0.7760645460517263,
+        "maximum": 6.74471804792927
+      }
+    ]
+  },
+  "DataSHA256": {
+    "ANSGAIII_CF2_D10_seed24_final_objectives.csv": "8a29e403dee2c77e7399083a36dcf5ccd782fd5b4f56132bc2f2d26f717ea40a",
+    "CF2_PF10000.csv": "661070b03b716ff2f8c891ebcf7d1c62d76f6246ee9c742584f5a5d8c6ffea14",
+    "CF2_selected_runs.csv": "31ede13aef8cbac4a7b5ad09819df3ae8fc89d074597d728f1b1527c8eecc552",
+    "CF7_all_runs.csv": "4f7d04770a6a1891567a107925f13bbda8ce2e900999ff37907f146f87560525",
+    "CF7_group_summary.csv": "06fe0f0d35ed4a57fce3e9787ad1620c35b30efa180b73770e021f345d9683ed",
+    "CSASS_CF2_D10_seed22_final_objectives.csv": "03ce35e350527621690cd8b30a363aaff708765992bbc2dc40c105f093cf3721",
+    "CTAEA_CF2_D10_seed19_final_objectives.csv": "f411b675c984ef2c0148753cfc016ef2c280103df03bce1b44e60b3c2457cf81",
+    "HeEMOEA_CF2_D10_seed06_final_objectives.csv": "e8f9695b918ce6c45f16b070821e8c0381699c61c00dd5223a2e21c60405ed99",
+    "MOL2SMEA_CF2_D10_seed19_final_objectives.csv": "6887d59b619d525fef6f400ed7a6343525819f022f5495cf11c3d7a4678d1a3d",
+    "PCSAEA_CF2_D10_seed17_final_objectives.csv": "7adc495080a41102c901138fa029c3929ae6a5bb88d8e6a0e6f6c6cbe8e01a0d"
+  }
+}

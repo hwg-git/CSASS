@@ -1,0 +1,52 @@
+{
+  "ID": "MOL2SMEA_LIRCMOP6_D20_seed03",
+  "Algorithm": "MOL2SMEA",
+  "Problem": "LIRCMOP6",
+  "D": 20,
+  "M": 2,
+  "Seed": 3,
+  "N": 100,
+  "MaxFE": 500,
+  "Status": "completed",
+  "FE": 500,
+  "InitialN": 100,
+  "Files": [
+    {
+      "Path": "result.json",
+      "SHA256": "3d3e514c734d90cbaa24ed0f91e31a883cadfc9c42af686e627fb050601ded1b"
+    },
+    {
+      "Path": "result.mat",
+      "SHA256": "e523dcff9082da89919150b5f29944419f9df8c1313032e0c14a89293daabcbc"
+    },
+    {
+      "Path": "precision_ledger.csv",
+      "SHA256": "43c065f0540876920d0dea283c30d25f08237cdb3af81bef5339cc9e65472cfb"
+    },
+    {
+      "Path": "final_decisions.csv",
+      "SHA256": "10166cdbbf528c4ec43467e93df2a6516ed47d9f0e2f44bce39227542ff7ece9"
+    },
+    {
+      "Path": "final_objectives.csv",
+      "SHA256": "ad976538391d68fd6ef68b751f69f014e0f3d8bd21765fb7a6765ff0245950f1"
+    },
+    {
+      "Path": "final_constraints.csv",
+      "SHA256": "e2553ddfb8fd4f164e6a09be4d266da31ff7083f72641c063ef4af59440dd3f8"
+    },
+    {
+      "Path": "initial_decisions.csv",
+      "SHA256": "80cedebf66ea7d79f4517017895bcb0a23e76515882475b08e5380db0fef2d6f"
+    },
+    {
+      "Path": "native_final.csv",
+      "SHA256": "55507a3ac0491fbe905ec1706e779d1f7735dd738b61f54f8ad6783ba1ffdfc8"
+    },
+    {
+      "Path": "configuration.json",
+      "SHA256": "b80f05d7c23db87dabeb63bf28ea4c9bba2f53e6a686df96a6a9f13dc7bd8fc2"
+    }
+  ],
+  "SourceCodeLockSHA256": "ab2e1ac4b0458d0ecd41de79844fa00e2d9788083a96f90326109e4c66a6f2f2"
+}

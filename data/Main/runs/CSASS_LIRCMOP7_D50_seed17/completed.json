@@ -1,0 +1,66 @@
+{
+  "Status": "completed",
+  "status": "completed",
+  "ID": "V2_LIRCMOP7_D50_adaptive_seed17",
+  "Version": "V2",
+  "Problem": "LIRCMOP7",
+  "D": 50,
+  "Seed": 17,
+  "Mode": "adaptive",
+  "FE": 500,
+  "Files": [
+    {
+      "Path": "result.json",
+      "SHA256": "0c5b1d66995beccc0242f51938f99fb0a6098f92f64d6bfe7514558f6bd43e40"
+    },
+    {
+      "Path": "precision_ledger.csv",
+      "SHA256": "a88ae30b481e5c42a09b2af233a87f79b82b024c2978bb1a639d1d512d3dcff7"
+    },
+    {
+      "Path": "final_objectives.csv",
+      "SHA256": "c615513649f217816ac7009d91f43bc3e95fb3bff26c59cd5d612f869b6b9db2"
+    },
+    {
+      "Path": "final_decisions.csv",
+      "SHA256": "a0eeee5ae41697980cec89fbabdd49a141b1d30597102d7775745f482b95ee9d"
+    },
+    {
+      "Path": "model_selection.csv",
+      "SHA256": "6fae7071803a5bf988024b085bb891326f24a76693de545506f49702d15441a9"
+    },
+    {
+      "Path": "prediction_errors.csv",
+      "SHA256": "07237ebe46fdc9d405d75894308b0ac760fafc4d7e026102a3260ac15f45ac47"
+    },
+    {
+      "Path": "training_ids.csv",
+      "SHA256": "512495273e6962cee2c46ea107794135573e1f086949d81aff6cb9187b861245"
+    },
+    {
+      "Path": "stage_flags.csv",
+      "SHA256": "69213f4b6f2cb8a3374c5a971ac8eb9ca40446b316ad05bf03168fe1718441e1"
+    },
+    {
+      "Path": "fit_times.csv",
+      "SHA256": "367bfa470cb607984a2f68464eab5d5bfdebb11480bbb861c74ef36d59a5c653"
+    },
+    {
+      "Path": "final_training_archive.csv",
+      "SHA256": "9215fc63fdd2262dde4041b65c9b14dd1c2dcc8e1495b97084280dece7a2ea47"
+    },
+    {
+      "Path": "final_surrogate_population_NOT_TRUE.csv",
+      "SHA256": "3289d9d3bf6cead2263b815aa3272850ff343e42f90339701166f1ca814947dc"
+    },
+    {
+      "Path": "configuration.json",
+      "SHA256": "574080bba7229bdda7077660b3f13de5880daa0699d68b6f92e12aa8a9fde7ac"
+    },
+    {
+      "Path": "diagnostic_result.mat",
+      "SHA256": "50187a2bcaf77bcdc89c9918ad672996506d62c3028cf6ffab25000681f15691"
+    }
+  ],
+  "CompletedUTC": "2026-11-04 14:36:38"
+}

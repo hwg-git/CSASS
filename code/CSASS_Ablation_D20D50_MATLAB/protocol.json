@@ -1,0 +1,53 @@
+{
+  "Name": "CSASS five-mode ablation: D20 and D50 extension",
+  "N": 100,
+  "MaxFE": 500,
+  "Pmax": 20,
+  "K": 10,
+  "Workers": 6,
+  "ThreadsPerTrial": 1,
+  "RequestedPF": 10000,
+  "Scale": 1,
+  "MaxWallHours": 72,
+  "NewTasks": 1800,
+  "CachedTasks": 0,
+  "TotalTasks": 1800,
+  "ExpectedGroups": 60,
+  "Dimensions": [
+    20,
+    50
+  ],
+  "Problems": [
+    "CF2",
+    "CF7",
+    "LIRCMOP1",
+    "LIRCMOP7",
+    "CF8",
+    "LIRCMOP13"
+  ],
+  "Modes": [
+    "adaptive",
+    "rbf_only",
+    "kriging_only",
+    "fixed_rbf_obj_kriging_con",
+    "fixed_kriging_obj_rbf_con"
+  ],
+  "SeedFirst": 1,
+  "SeedLast": 30,
+  "CacheGroups": [],
+  "HVReferences": [
+    1.1,
+    3,
+    20
+  ],
+  "OutputRule": "SPEA2 select N from all true evaluations, then feasible nondominated solutions; frozen V2 rule",
+  "RBFKernel": "multiquadric",
+  "EngineReferencePoints": 2000,
+  "AutomaticRetry": false,
+  "StopByHistoricalIGD": false,
+  "IDFormat": "V2_{Problem}_D{D}_{Mode}_seed{Seed:02d}",
+  "ImportedAdaptivePolicy": "Optional verified full-V2 adaptive completion records may fill matching new manifest tasks; never rerun or replace existing trial directories.",
+  "MinFreeRAMGiB": 2,
+  "MinFreeDiskGiB": 5,
+  "ResourceWaitMinutes": 30
+}

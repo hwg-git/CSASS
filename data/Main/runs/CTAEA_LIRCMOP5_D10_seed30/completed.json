@@ -1,0 +1,52 @@
+{
+  "ID": "CTAEA_LIRCMOP5_D10_seed30",
+  "Algorithm": "CTAEA",
+  "Problem": "LIRCMOP5",
+  "D": 10,
+  "M": 2,
+  "Seed": 30,
+  "N": 100,
+  "MaxFE": 500,
+  "Status": "completed",
+  "FE": 500,
+  "InitialN": 100,
+  "Files": [
+    {
+      "Path": "result.json",
+      "SHA256": "9b6212ab82c23b868b84bf71ac9b976ba9e92005ee9acc3156e3235bc2bc69ab"
+    },
+    {
+      "Path": "result.mat",
+      "SHA256": "42a5b01496c58c364283b235c07cff342ae8e309b80a65ca3fb69a03d30164f3"
+    },
+    {
+      "Path": "precision_ledger.csv",
+      "SHA256": "a93f62d936ddbfe71e116c1ce1aa0030b9a42e496d9bf12f6c96f858208c0b38"
+    },
+    {
+      "Path": "final_decisions.csv",
+      "SHA256": "5b61c6f6eb9ce1b7395608b237165b4bc97cee81ac731a2bafd2617df37c3ec5"
+    },
+    {
+      "Path": "final_objectives.csv",
+      "SHA256": "db1803a191cd05af035adc49d9ee98c66a99b75835dbfdf58d22ae31a5cde862"
+    },
+    {
+      "Path": "final_constraints.csv",
+      "SHA256": "7c0ab325c9f7cbf199d6f077525e60cc6ce5c39f01e65355506e9acff4439d43"
+    },
+    {
+      "Path": "initial_decisions.csv",
+      "SHA256": "fcd12b7d590834bd7c2cf66c851cc25db9bc1e56bc32e8304fcd3b5902a68a6d"
+    },
+    {
+      "Path": "native_final.csv",
+      "SHA256": "ec4da5b05af822c1650dadaef2a5553cf4c20ae995b537ee1d8c19c09b63222e"
+    },
+    {
+      "Path": "configuration.json",
+      "SHA256": "5e73b59d7783af86ce60424042fd982f811715244a0da78717c6436d4c3d1d5f"
+    }
+  ],
+  "SourceCodeLockSHA256": "ab2e1ac4b0458d0ecd41de79844fa00e2d9788083a96f90326109e4c66a6f2f2"
+}

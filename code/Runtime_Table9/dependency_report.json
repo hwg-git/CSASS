@@ -1,0 +1,68 @@
+{
+  "Status": "pass_static_dependency_extraction",
+  "Archive": "C:\\Users\\LOCAL_USER\\Documents\\ChatGPT\\New project\\output\\CSASS_Complete_Archive_20261111.zip",
+  "Destination": "C:\\Users\\LOCAL_USER\\Documents\\ChatGPT\\New project\\output\\CSASS_Runtime_Table9_20261117\\CSASS_Runtime_Table9_MATLAB",
+  "Files": 180,
+  "Bytes": 1704043,
+  "Counts": {
+    "currentCSASS": 55,
+    "frozenOpponents": 125
+  },
+  "BytesByEngine": {
+    "currentCSASS": 1284471,
+    "frozenOpponents": 419572
+  },
+  "FrozenSourceFilesModified": false,
+  "ExperimentsStarted": 0,
+  "MATLABExecuted": false,
+  "SetupEntrypoints": {
+    "current": "engines/current_csass/code/v2all_engine_setup.m called with current_csass root; retains24small problem definitions checked by this setup",
+    "opponents": "engines/frozen_opponents/code/portable_setup.m called with frozen_opponents root and HeEMOEA/MOL2SMEA/PCSAEA"
+  },
+  "CurrentCore": "Original engines/V2/matlab structure preserved;21corefiles.",
+  "OpponentClasses": "Frozen protocol algorithm trees, full PlatEMO ALGORITHM/PROBLEM/SOLUTION, Utility functions, all small scientific problem definitions and helper closure. No alternative minimal PROBLEM/SOLUTION class copied.",
+  "CurrentRunEntrypoint": "csass_run_v2; v2all_engine optional adapter also copied unchanged; parent controller defines controlled timing.",
+  "References": "4frozen PF10000 CSVs under engines/current_csass/references/PF10000; count is request, actual rows may differ.",
+  "LegacyHelperClarification": "frozen_opponents/scientific_baseline/matlab/+csass is helper dependency for opponent initialization and extraction, not selected currentCSASS implementation; old csass_run.m and old campaign controllers excluded.",
+  "Excluded": [
+    "old experiment outputs/baseline runs/finalsets",
+    "historic manuscripts/forms/signatures",
+    "old main controllers and automatic experiment scripts",
+    "vendor duplicate original algorithm trees",
+    "ANSGAIII/CTAEA protocol trees not requested",
+    "minimal benchmark_adapter PROBLEM/SOLUTION class conflicts"
+  ],
+  "RequiredPathsChecked": [
+    "engines/current_csass/engines/V2/matlab/csass_run_v2.m",
+    "engines/current_csass/benchmarks/adapter/REVIEW_PROBLEM.m",
+    "engines/current_csass/benchmarks/adapter/REVIEW_SOLUTION.m",
+    "engines/current_csass/benchmarks/helpers/REVIEW_NDSort.m",
+    "engines/current_csass/benchmarks/helpers/REVIEW_UniformPoint.m",
+    "engines/frozen_opponents/vendor/PlatEMO/Algorithms/ALGORITHM.m",
+    "engines/frozen_opponents/vendor/PlatEMO/Problems/PROBLEM.m",
+    "engines/frozen_opponents/vendor/PlatEMO/Problems/SOLUTION.m",
+    "engines/frozen_opponents/code/PortableLedgerProblem.m",
+    "engines/frozen_opponents/code/portable_write_csv.m",
+    "engines/frozen_opponents/scientific_baseline/matlab/+csass/lhs.m",
+    "engines/current_csass/benchmarks/problems/REVIEW_CF1.m",
+    "engines/current_csass/references/PF10000/CF1.csv",
+    "engines/frozen_opponents/scientific_baseline/vendor/platemo_problems/CF1.m",
+    "engines/current_csass/benchmarks/problems/REVIEW_CF7.m",
+    "engines/current_csass/references/PF10000/CF7.csv",
+    "engines/frozen_opponents/scientific_baseline/vendor/platemo_problems/CF7.m",
+    "engines/current_csass/benchmarks/problems/REVIEW_LIRCMOP1.m",
+    "engines/current_csass/references/PF10000/LIRCMOP1.csv",
+    "engines/frozen_opponents/scientific_baseline/vendor/platemo_problems/LIRCMOP1.m",
+    "engines/current_csass/benchmarks/problems/REVIEW_LIRCMOP7.m",
+    "engines/current_csass/references/PF10000/LIRCMOP7.csv",
+    "engines/frozen_opponents/scientific_baseline/vendor/platemo_problems/LIRCMOP7.m",
+    "engines/frozen_opponents/protocol_algorithms/HeE-MOEA/HeEMOEA.m",
+    "engines/frozen_opponents/protocol_algorithms/MO-L2SMEA/MOL2SMEA.m",
+    "engines/frozen_opponents/protocol_algorithms/PC-SAEA/PCSAEA.m"
+  ],
+  "Manifest": "dependency_manifest.json",
+  "Limits": [
+    "Static file closure and frozen-byte verification only; no claim that MATLAB smoke test passed.",
+    "HeEMOEA native MEX files are Windows x64 assets; remote machine must have compatible MATLAB/toolboxes."
+  ]
+}

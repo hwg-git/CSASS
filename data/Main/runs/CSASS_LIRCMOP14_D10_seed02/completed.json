@@ -1,0 +1,65 @@
+{
+  "Status": "completed",
+  "status": "completed",
+  "ID": "V2_LIRCMOP14_D10_seed02",
+  "Version": "V2",
+  "Problem": "LIRCMOP14",
+  "D": 10,
+  "Seed": 2,
+  "FE": 500,
+  "Files": [
+    {
+      "Path": "result.json",
+      "SHA256": "e0caca6cfe53d13420a91908a33f2f98433b4cb97f701122e442824899c7089a"
+    },
+    {
+      "Path": "precision_ledger.csv",
+      "SHA256": "b7fedfd724ce65bcd72a01d33c792890ec27882d2635eb32c73c848b718e0038"
+    },
+    {
+      "Path": "final_objectives.csv",
+      "SHA256": "26ab0ad081a215282a38499fef17dd5b96b90d11ba42039ec5d329d47c9a6bfd"
+    },
+    {
+      "Path": "final_decisions.csv",
+      "SHA256": "276262b608e828fccd15df1aca2605dfec943556c2e9a41e906b1847ec7425e3"
+    },
+    {
+      "Path": "model_selection.csv",
+      "SHA256": "9800ef96e64835de1618692c58b517ab1316b82df8fde0eff463137fa5cde965"
+    },
+    {
+      "Path": "prediction_errors.csv",
+      "SHA256": "f25eaf68099ea0e4fad82722fc5538982756b9ae1e879d9e47c4ac166a5c52a9"
+    },
+    {
+      "Path": "training_ids.csv",
+      "SHA256": "15cbd1e3a7d839826781db13b57b868c0c728c6073eb95b2c25a00ec356cdccb"
+    },
+    {
+      "Path": "stage_flags.csv",
+      "SHA256": "755b94edd5c73e4399fc1bade76cf71d7ee89116e960a6b1a9092ed2615248c4"
+    },
+    {
+      "Path": "fit_times.csv",
+      "SHA256": "d561c146684c4a8347540812a007df881fd7d84e191b70cb40bf062bc03a3c40"
+    },
+    {
+      "Path": "final_training_archive.csv",
+      "SHA256": "15eee2f13695a836ae969802b3c7b572a1a166b3ed83ab7ee7880f0ec7070e96"
+    },
+    {
+      "Path": "final_surrogate_population_NOT_TRUE.csv",
+      "SHA256": "e0b1e147df8511dcb30dec00e251135b3b15404a2efd91ece7d6a594319919f1"
+    },
+    {
+      "Path": "configuration.json",
+      "SHA256": "049be26ab69e29190d0fc49e1b63824c65d6b411e39ee65b88c394b2fa74dd2c"
+    },
+    {
+      "Path": "diagnostic_result.mat",
+      "SHA256": "372f3425e8a95c71356b08ed9e6223170ff552f4106785c2ea2ae8ad9f1843dc"
+    }
+  ],
+  "CompletedUTC": "2026-11-04 10:28:40"
+}

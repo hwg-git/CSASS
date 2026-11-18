@@ -1,0 +1,52 @@
+{
+  "Task": {
+    "ID": "CF7_D10_P040_K010_seed17",
+    "Problem": "CF7",
+    "D": 10,
+    "Pmax": 40,
+    "K": 10,
+    "Seed": 17,
+    "N": 100,
+    "MaxFE": 500
+  },
+  "Options": {
+    "N": 100,
+    "MaxFE": 500,
+    "Pmax": 40,
+    "K": 10,
+    "Seed": 17,
+    "Mode": "adaptive",
+    "RBFKernel": "multiquadric",
+    "RBFShape": 1,
+    "RBFRidge": 0,
+    "KrigingMaxFunEvals": 120,
+    "KrigingMaxIter": 80,
+    "KrigingThetaMin": 0.001,
+    "KrigingThetaMax": 100,
+    "KrigingNugget": 1E-10,
+    "CrossoverProbability": 1,
+    "CrossoverEta": 20,
+    "MutationExpected": 1,
+    "MutationEta": 20,
+    "FeasibilityTolerance": 0,
+    "DuplicateTolerance": 1E-10,
+    "R2VarianceTolerance": 0,
+    "ReferencePoints": 10000,
+    "HVReference": [
+      1.1,
+      1.1
+    ],
+    "OutputDirectory": "",
+    "Verbose": false
+  },
+  "MATLAB": "23.2.0.2380103 (R2023b) Update 1",
+  "ComputeThreads": 1,
+  "WorkerProcesses": 1,
+  "ProtocolSHA256": "1e4636e1d45b8f576527916489be579f3a62bb2fab7499871c978236dc3bb4a9",
+  "SourceLockSHA256": "0afc9c5e4a6c949230230b6a52caa5c4c28b9b939ffc988ea49141bd1529d7e5",
+  "RunnerSHA256": "38428791a5aa461161b11d40cd1510512b04b4a35d6da6de0c9bf55ad5982e73",
+  "OutputRule": "Constrained SPEA2 selects N from all true evaluations; feasible nondominated subset.",
+  "IGDReference": "Frozen PF10000; raw objective units; no objective scaling.",
+  "HVReference": "PF10000-bound normalization; primary r=1.1; unclipped objectives; no box-volume division.",
+  "LastBatchPolicy": "min(K, MaxFE - FE); exact FE=500; no budget overshoot."
+}

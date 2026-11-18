@@ -1,0 +1,80 @@
+{
+  "status": "pass",
+  "scope": "Tables 2-8, shared CSASS run identity, and optional controlled-runtime Table 9; statistics computed from saved indicators, not an independent re-evaluation of objective functions or final-set metrics",
+  "optimization_runs_started": 0,
+  "main_runs": 12960,
+  "main_groups": 432,
+  "ablation_runs": 2700,
+  "ablation_groups": 90,
+  "shared_adaptive_records": 540,
+  "shared_record_mismatches": [],
+  "table_checks": [
+    {
+      "file": "IGD_CF.tex",
+      "settings": 30,
+      "cells": 180
+    },
+    {
+      "file": "IGD_LIRCMOP.tex",
+      "settings": 42,
+      "cells": 252
+    },
+    {
+      "file": "HV_CF.tex",
+      "settings": 30,
+      "cells": 180
+    },
+    {
+      "file": "HV_LIRCMOP.tex",
+      "settings": 42,
+      "cells": 252
+    },
+    {
+      "file": "Ablation_IGD.tex",
+      "settings": 18,
+      "cells": 90
+    },
+    {
+      "file": "Ablation_HV.tex",
+      "settings": 18,
+      "cells": 90
+    }
+  ],
+  "runtime": {
+    "status": "checked",
+    "runs": 480,
+    "groups": 16,
+    "cells": 16,
+    "source": "Full-precision RuntimeSeconds from complete.json Row; timer scope verified separately."
+  },
+  "sensitivity": [
+    {
+      "Reference": "1.1",
+      "Better": 20,
+      "Worse": 0,
+      "Equal": 52,
+      "AllZeroSettings": 6
+    },
+    {
+      "Reference": "3",
+      "Better": 26,
+      "Worse": 2,
+      "Equal": 44,
+      "AllZeroSettings": 4
+    },
+    {
+      "Reference": "20",
+      "Better": 26,
+      "Worse": 2,
+      "Equal": 44,
+      "AllZeroSettings": 3
+    }
+  ],
+  "errors": [],
+  "input_sha256": {
+    ".\\data\\Main\\main_runs.csv": "d1968dd821f35c74481ed155712bda9c7c2e4ff24a4a315f4f6b9320191731db",
+    ".\\data\\Ablation\\ablation_runs.csv": "be3a19c5eb7b65bff0ad8d2482a2e6cd3c58b6ff00192c54b4d12748e15893a3",
+    ".\\data\\Runtime\\run_results_full_precision.csv": "e78fed7a8b85f823e0786bdfe2a55d67a77be3ced664844c7223f5f633a20a7f"
+  },
+  "statistics": "Two-sided normal-approximation rank-sum test; ties and continuity corrected; Inf kept; Holm across four ablation controls per setting and metric. All 30 observations retained."
+}

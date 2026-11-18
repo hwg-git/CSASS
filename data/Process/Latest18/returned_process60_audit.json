@@ -1,0 +1,57 @@
+{
+  "Status": "pass_returned_process60_csv_checks",
+  "Runs": 60,
+  "PredictionRecords": 72000,
+  "OriginalLedgerRows": 30000,
+  "AllChoicesMatchAdoptedRunLogs": true,
+  "AllTruthMatchesLedger": true,
+  "MaxTruthAbsoluteDifference": 0,
+  "MaxExistingObjectiveSummaryDifference": 6.661338147750939e-16,
+  "Previous16CVTrend": {
+    "increase": 12,
+    "decrease": 3,
+    "unchanged": 1
+  },
+  "Updated18CVTrend": {
+    "increase": 14,
+    "decrease": 3,
+    "unchanged": 1
+  },
+  "New2CVSummary": [
+    {
+      "Problem": "CF2",
+      "D": 10,
+      "ResponseIndex": 3,
+      "Response": "CV",
+      "Early": 0.014927911270240748,
+      "Late": 0.019086016105191776,
+      "All": 0.020103143881105085,
+      "ReductionPercent": -27.854565583065447
+    },
+    {
+      "Problem": "LIRCMOP1",
+      "D": 10,
+      "ResponseIndex": 3,
+      "Response": "CV",
+      "Early": 0.03419578119732828,
+      "Late": 1.5532116015066615,
+      "All": 1.0080632298149146,
+      "ReductionPercent": -4442.1146911187225
+    }
+  ],
+  "New2ScoreCounts": {
+    "CF2": {
+      "undefined": 640,
+      "tie": 560
+    },
+    "LIRCMOP1": {
+      "unequal": 428,
+      "undefined": 195,
+      "tie": 577
+    }
+  },
+  "SixTraceOrigin": "Previously regenerated exact-ledger replay; not original contemporaneous logs",
+  "FreshOptimizationRuns": 0,
+  "FreshModelFits": 0,
+  "OriginalDataModified": false
+}
