@@ -8,7 +8,7 @@ CSASS GitHub上传包（2026-11-18）
 在同一仓库创建固定版本Release（例如v1.0.0），把这些文件作为附件上传。
 所有日志包均小于GitHub单Release附件2GiB限制；不要将外层总ZIP作为单个Release附件。
 
-三、运行说明：repository/README_中文.md及README.md。
+三、运行说明：repository/README.md。
 MAIN_CSASS_PUBLIC默认只显示帮助；不需要重跑即可用Python核验论文表格和指标。
 
 四、可行次数已经包含：data/Feasibility和data/Supplementary。审稿人还要求在论文或补充表中呈现，不能仅用仓库链接代替补充表。
